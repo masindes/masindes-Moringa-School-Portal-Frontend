@@ -14,6 +14,7 @@ import CurrentPhase from "./components/CurrentPhase";
 import Payment from "./components/Payment";
 import Logout from "./components/Logout";
 import AdminDashboard from "./components/AdminDashboard";
+import AdminPayments from "./components/AdminPayments";
 
 const App = () => {
   return (
@@ -46,6 +47,7 @@ const App = () => {
 
             {/* Admin Dashboard Route */}
             <Route path="/admin" element={<AdminDashboard />} /> 
+            <Route path="/admin-payments" element={<AdminPayments />} />
           </Routes>
         </div>
 
